@@ -25,7 +25,7 @@ public class WeeklyTest1 {
     }
 
     public static void WeeklyTestAPI() throws URISyntaxException, IOException {
-        URIBuilder builder = new URIBuilder("https://www.weatherbit.io/");
+        URIBuilder builder = new URIBuilder("https://api.chucknorris.io/");
 
         HttpGet getData = new HttpGet(builder.build());
 
